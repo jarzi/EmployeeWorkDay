@@ -9,8 +9,8 @@ namespace ZadanieTestoweComAtCom.Core
     {
         public static void ShowHelp()
         {
-            Console.WriteLine(Process.GetCurrentProcess().ProcessName + ".exe"+ " typFirmy sciezkaDoPlikuZRaportem; typFirmyN sciezkaDoPlikuZRaportemN ; ..." +
-                              " Przykładowe użycie: " + Process.GetCurrentProcess().ProcessName + ".exe" + " Firma1 rcp1.csv ; Firma2 rcp2.csv ;");
+            Console.WriteLine(Process.GetCurrentProcess().ProcessName + ".exe"+ " typFirmy sciezkaDoPlikuZRaportem typFirmyN sciezkaDoPlikuZRaportemN ..." +
+                              " Przykładowe użycie: " + Process.GetCurrentProcess().ProcessName + ".exe" + " Firma1 rcp1.csv Firma2 rcp2.csv");
         }
 
         public static void ShowErrorMessage()

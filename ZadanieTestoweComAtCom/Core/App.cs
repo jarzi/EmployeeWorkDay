@@ -47,7 +47,7 @@ namespace ZadanieTestoweComAtCom.Core
 
         private static void AddFirms(string[] args, IList<Firm> firmsList1, IList<Firm> firmsList2)
         {
-            for (var i = 0; i < args.Length; i += 3)
+            for (var i = 0; i < args.Length; i += 2)
             {
                 if (args[i] == FirmType.Firma1.ToString())
                 {

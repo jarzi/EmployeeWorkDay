@@ -12,10 +12,9 @@ namespace ZadanieTestoweComAtCom.Core
             {
                 var success = true;
                 
-                for (var i = 0; i < input.Length; i += 3)
+                for (var i = 0; i < input.Length; i += 2)
                 {
-                    if ((input[i] == FirmType.Firma1.ToString() || input[i] == FirmType.Firma2.ToString()) && (File.Exists(input[i + 1])) &&
-                        input[i + 2] == ";") continue;
+                    if ((input[i] == FirmType.Firma1.ToString() || input[i] == FirmType.Firma2.ToString()) && (File.Exists(input[i + 1]))) continue;
                     success = false;
                 }
 
